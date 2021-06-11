@@ -36,3 +36,12 @@ app:
     gitRemoteUrl: '${GIT_REMOTE_URL}'
     gitBranch: '${GIT_BRANCH}'
     gitDir: '${GIT_DIR}'
+  mailEnable: '${MAIL_ENABLE:false}'
+  mail:
+    server: '${MAIL_SERVER:smtp.gmail.com}'
+    port: '${MAIL_PORT:587}'
+    username: '${MAIL_USERNAME}'
+    password: '${MAIL_PASSWORD}'
+    smtpAuth: '${SMTP_AUTH:true}'
+    smtpTLS: '${SMTP_TLS:true}'
+    smtpTLSRequired: '${SMTP_TLS_:true}'
